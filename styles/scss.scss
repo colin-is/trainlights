@@ -1,0 +1,101 @@
+
+html{
+    font-family: helvetica, sans-serif;
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+
+//grid for line names
+.line , .track{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+// makes the circle for line names
+.line__id{
+    text-align: center;
+    margin:0;
+    background-color: grey;
+    height: 20px;
+    width: 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12.5px;
+    line-height: 20px;
+}
+
+//colors line names
+.line__id--red{
+background-color:#ee352e;
+}
+.line__id--green{
+background-color:#6cbe45;
+}
+.line__id--purple{
+background-color:#b933ad;
+}
+.line__id--blue{
+background-color:#2850ad;
+}
+.line__id--orange{
+background-color:#ff6319;
+}
+.line__id--green{
+background-color:#00933c;
+}
+.line__id--brown{
+background-color:#996633;
+}
+.line__id--grey{
+background-color:#a7a9ac;
+}
+.line__id--drkgrey{
+background-color:#808183;
+}
+.line__id--yellow{
+background-color:#fccc0a;
+color:black;
+font-weight: bold;
+}
+.line__id--drkblue{
+background-color:#333399;
+font-stretch: ultra-condensed;
+font-size: 11px;
+}
+.line__id--brown{
+background-color:#996633;
+}
+
+.track__path{
+    text-align: center;
+    height: 210px;
+    width:20px; 
+    border: 1px solid black;
+}
+
+.train{
+    fill: white;
+    stroke: black; 
+    stroke-dasharray: 1; 
+    stroke-width: 2; 
+    cx: 10;
+    cy: 137; 
+    r: 4;
+}
+
+.trainstop{
+    fill: black;
+}
+
+.trainline--one{
+    stroke:#ee352e;
+    stroke-width:3;
+    coordinate: 10,0,10,200;
+}
+

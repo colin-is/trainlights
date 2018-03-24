@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Train Lights</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  </head>
+  <body>
+    <h1>A visualization of the Subway train schedule</h1>
+    <h2>Where the trains <i>should</i> be</h2>
+
+    <div class="line">
+      <div class="line__id line__id--red">1</div>
+      <div class="line__id line__id--red">2</div>
+      <div class="line__id line__id--red">3</div>
+      <div class="line__id line__id--green">4</div>
+      <div class="line__id line__id--green">5</div>
+      <div class="line__id line__id--green">6</div>
+      <div class="line__id line__id--purple">7</div>
+      <div class="line__id line__id--blue">A</div>
+      <div class="line__id line__id--orange">B</div>
+      <div class="line__id line__id--blue">C</div>
+      <div class="line__id line__id--orange">D</div>
+      <div class="line__id line__id--blue">E</div>
+      <div class="line__id line__id--orange">F</div>
+      <div class="line__id line__id--green">G</div>
+      <div class="line__id line__id--blue">H</div>
+      <div class="line__id line__id--brown">J</div>
+      <div class="line__id line__id--grey">L</div>
+      <div class="line__id line__id--orange">M</div>
+      <div class="line__id line__id--yellow">N</div>
+      <div class="line__id line__id--yellow">Q</div>
+      <div class="line__id line__id--yellow">R</div>
+      <div class="line__id line__id--drkgrey">S</div>
+      <div class="line__id line__id--drkgrey">S</div>
+      <div class="line__id line__id--drkblue">SIR</div>
+      <div class="line__id line__id--yellow">W</div>
+      <div class="line__id line__id--brown">Z</div>
+    </div>
+
+
+    <div class="track">
+      <svg id="track__path--one" class="track__path track__path--red">
+        <line class="trainline--one" x1="10" y1="0" x2="10" y2="200" />
+        <circle class="trainstop" cx="10" cy="4" r="4" />
+        <circle class="trainstop" cx="10" cy="50" r="4" />
+        <circle class="trainstop" cx="10" cy="100" r="4" />
+        <circle class="trainstop" cx="10" cy="150" r="4" />
+        <circle class="trainstop" cx="10" cy="200" r="4" />
+        <circle class="train" />
+      </svg>
+      <div id="track__path--two" class="track__path track__path--red">|</div>
+      <div id="track__path--three" class="track__path track__path--red">|</div>
+      <div id="track__path--four" class="track__path track__path--green">|</div>
+      <div id="track__path--five" class="track__path track__path--green">|</div>
+      <div id="track__path--six" class="track__path track__path--green">|</div>
+      <div id="track__path--seven" class="track__path track__path--purple">|</div>
+      <div id="track__path--a" class="track__path track__path--blue">|</div>
+      <div id="track__path--b" class="track__path track__path--orange">|</div>
+      <div id="track__path--c" class="track__path track__path--blue">|</div>
+      <div id="track__path--d" class="track__path track__path--orange">|</div>
+      <div id="track__path--e" class="track__path track__path--blue">|</div>
+      <div id="track__path--f" class="track__path track__path--orange">|</div>
+      <div id="track__path--g" class="track__path track__path--green">|</div>
+      <div id="track__path--h" class="track__path track__path--blue">|</div>
+      <div id="track__path--j" class="track__path track__path--brown">|</div>
+      <div id="track__path--l" class="track__path track__path--grey">|</div>
+      <div id="track__path--m" class="track__path track__path--orange">|</div>
+      <div id="track__path--n" class="track__path track__path--yellow">|</div>
+      <div id="track__path--q" class="track__path track__path--yellow">|</div>
+      <div id="track__path--r" class="track__path track__path--yellow">|</div>
+      <div id="track__path--s1" class="track__path track__path--drkgrey">|</div>
+      <div id="track__path--s2" class="track__path track__path--drkgrey">|</div>
+      <div id="track__path--sir" class="track__path track__path--drkblue">|</div>
+      <div id="track__path--w" class="track__path track__path--yellow">|</div>
+      <div id="track__path--z" class="track__path track__path--brown">|</div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
