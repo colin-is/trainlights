@@ -9,7 +9,8 @@ var lineLength = sum of station * sum of segmentLenghtUniform
 // todo factory for all the different lines
 
 
-
+//https://developers.google.com/transit/gtfs-realtime/examples/nodejs-sample
+//https://developers.google.com/transit/gtfs-realtime/#getting_help
 var GtfsRealtimeBindings = require('gtfs-realtime-bindings');
 var request = require('request');
 
